@@ -72,7 +72,7 @@ int main(int argc, char* argv[])
 		Py_DECREF(module);
 		Py_DECREF(module_name);
 		Py_DECREF(path);
-		Py_DECREF(sys_path);
+		//Py_DECREF(sys_path); // causes exception
 	}
 	Py_Finalize();
 

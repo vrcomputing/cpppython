@@ -26,7 +26,7 @@ add_executable(${TARGET_NAME}
 
 target_link_libraries(${TARGET_NAME} PRIVATE  Python::Python)
 target_include_directories(${TARGET_NAME} PRIVATE ${Python_INCLUDE_DIRS})
-set_target_properties(${TARGET_NAME} PROPERTIES VS_DEBUGGER_ENVIRONMENT "PATH=PATH;$<TARGET_FILE_DIR:Python::Python>")
+set_target_properties(${TARGET_NAME} PROPERTIES VS_DEBUGGER_ENVIRONMENT "PATH=%PATH%;$<TARGET_FILE_DIR:Python::Python>")
 
 install(TARGETS ${TARGET_NAME} DESTINATION bin$<$<CONFIG:Debug>:/debug>)
-install(FILES $<TARGET_FILE:Python::Python> DESTINATION bin$<$<CONFIG:Debug>:/debug>)
+install(FILES src/example.py DESTINATION scripts)

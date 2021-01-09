@@ -28,7 +28,7 @@ Other operating systems might work as well.
 
 # Known Issues
 
-- While debugging the application prints the following output at the end:
+- When activating __Py_DECREF(sys_path)__ while debugging the application prints the following output at the end:
 
 ```
 D:\a\1\s\Modules\gcmodule.c:441: visit_decref: Assertion "!_PyObject_IsFreed(op)" failed
