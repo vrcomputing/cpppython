@@ -1,6 +1,6 @@
 # cpppython
 
-This is a proof of concept project for educational purposes. It has been created in rapid prototyping approach. The project demonstrates how to call methods from a Python module, as well as how to create objects in Python modules. The main focus of this project is to demonstrate bi-directional communication between C/C++ and Python. Please keep in mind that this project has been created within 4-6 hours including induction and research. 
+This is a proof of concept project for educational purposes. It has been created in rapid prototyping approach. The project demonstrates how to call methods from a Python module, as well as how to create objects in Python modules. The main focus of this project is to demonstrate bidirectional communication between C/C++ and Python. Please keep in mind that this project has been created within 4-6 hours including induction and research. 
 
 # Features
 
